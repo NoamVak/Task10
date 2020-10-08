@@ -58,6 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="10"
+                android:hint="capital"
                 android:gravity="center_vertical" />
 
             <TextView
@@ -65,6 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="10"
+                android:hint="population"
                 android:gravity="center_vertical" />
 
             <TextView
@@ -72,13 +74,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="10"
+                android:hint="language"
                 android:gravity="center_vertical" />
 
             <TextView
-                android:id="@+id/theme"
+                android:id="@+id/antheme"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="10"
+                android:hint="national theme"
                 android:gravity="center_vertical" />
 
         </LinearLayout>
