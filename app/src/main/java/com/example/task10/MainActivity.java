@@ -97,50 +97,187 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
-
-         if(row==2){
+        if (row==1){
             switch (i){
                 case 0:
-                    cap.setText("Tokyo");
-                    pop.setText("125,960,000");
-                    lang.setText("Japanese");
-                    antheme.setText( "Kimigayo");
+                    cap.setText(info[0][0]);
+                    pop.setText(info[0][1]);
+                    lang.setText(info[0][2]);
+                    antheme.setText(info[0][3]);
                     break;
                 case 1:
-                    cap.setText("New Delhi");
-                    pop.setText("1,352,642,280");
-                    lang.setText("Hindi/English");
-                    antheme.setText("Thou Art the Ruler of the Minds of All People");
+                    cap.setText(info[1][0]);
+                    pop.setText(info[1][1]);
+                    lang.setText(info[1][2]);
+                    antheme.setText(info[1][3]);
                     break;
                 case 2:
-                    cap.setText("Accra");
-                    pop.setText("31,072,940");
-                    lang.setText("English");
-                    antheme.setText("God Bless Our Homeland Ghana");
+                    cap.setText(info[2][0]);
+                    pop.setText(info[2][1]);
+                    lang.setText(info[2][2]);
+                    antheme.setText(info[2][3]);
                     break;
                 case 3:
-                    cap.setText("Abuja");
-                    pop.setText("206,630,269");
-                    lang.setText("English");
-                    antheme.setText("Arise, O Compatriots");
+                    cap.setText(info[3][0]);
+                    pop.setText(info[3][1]);
+                    lang.setText(info[3][2]);
+                    antheme.setText(info[3][3]);
                     break;
                 case 4:
-                    cap.setText("Rabat");
-                    pop.setText("36,472,000");
-                    lang.setText("Arabic/Berber");
-                    antheme.setText("Cherifian Anthem");
+                    cap.setText(info[4][0]);
+                    pop.setText(info[4][1]);
+                    lang.setText(info[4][2]);
+                    antheme.setText(info[4][3]);
                     break;
                 case 5:
-                    cap.setText("Khartoum");
-                    pop.setText("41,592,539");
-                    lang.setText("Arabic/English");
-                    antheme.setText("We are the Soldiers of God, the Soldiers of the Nation");
+                    cap.setText(info[5][0]);
+                    pop.setText(info[5][1]);
+                    lang.setText(info[5][2]);
+                    antheme.setText(info[5][3]);
                     break;
                 case 6:
-                    cap.setText("Cairo");
-                    pop.setText("100,075,480");
-                    lang.setText("Arabic");
-                    antheme.setText("Bilady, Bilady, Bilady");
+                    cap.setText(info[6][0]);
+                    pop.setText(info[6][1]);
+                    lang.setText(info[6][2]);
+                    antheme.setText(info[6][3]);
+                    break;
+            }
+        }
+        else if(row==2){
+            switch (i){
+                case 0:
+                    cap.setText(info[7][0]);
+                    pop.setText(info[7][1]);
+                    lang.setText(info[7][2]);
+                    antheme.setText(info[7][3]);
+                    break;
+                case 1:
+                    cap.setText(info[8][0]);
+                    pop.setText(info[8][1]);
+                    lang.setText(info[8][2]);
+                    antheme.setText(info[8][3]);
+                    break;
+                case 2:
+                    cap.setText(info[9][0]);
+                    pop.setText(info[9][1]);
+                    lang.setText(info[9][2]);
+                    antheme.setText(info[9][3]);
+                    break;
+                case 3:
+                    cap.setText(info[10][0]);
+                    pop.setText(info[10][1]);
+                    lang.setText(info[10][2]);
+                    antheme.setText(info[10][3]);
+                    break;
+                case 4:
+                    cap.setText(info[11][0]);
+                    pop.setText(info[11][1]);
+                    lang.setText(info[11][2]);
+                    antheme.setText(info[11][3]);
+                    break;
+                case 5:
+                    cap.setText(info[12][0]);
+                    pop.setText(info[12][1]);
+                    lang.setText(info[12][2]);
+                    antheme.setText(info[12][3]);
+                    break;
+                case 6:
+                    cap.setText(info[13][0]);
+                    pop.setText(info[13][1]);
+                    lang.setText(info[13][2]);
+                    antheme.setText(info[13][3]);
+                    break;
+            }
+        }
+        else if(row==3){
+            switch (i){
+                case 0:
+                    cap.setText(info[14][0]);
+                    pop.setText(info[14][1]);
+                    lang.setText(info[14][2]);
+                    antheme.setText(info[14][3]);
+                    break;
+                case 1:
+                    cap.setText(info[15][0]);
+                    pop.setText(info[15][1]);
+                    lang.setText(info[15][2]);
+                    antheme.setText(info[15][3]);
+                    break;
+                case 2:
+                    cap.setText(info[16][0]);
+                    pop.setText(info[16][1]);
+                    lang.setText(info[16][2]);
+                    antheme.setText(info[16][3]);
+                    break;
+                case 3:
+                    cap.setText(info[17][0]);
+                    pop.setText(info[17][1]);
+                    lang.setText(info[17][2]);
+                    antheme.setText(info[17][3]);
+                    break;
+                case 4:
+                    cap.setText(info[18][0]);
+                    pop.setText(info[18][1]);
+                    lang.setText(info[18][2]);
+                    antheme.setText(info[18][3]);
+                    break;
+                case 5:
+                    cap.setText(info[19][0]);
+                    pop.setText(info[19][1]);
+                    lang.setText(info[19][2]);
+                    antheme.setText(info[19][3]);
+                    break;
+                case 6:
+                    cap.setText(info[20][0]);
+                    pop.setText(info[20][1]);
+                    lang.setText(info[20][2]);
+                    antheme.setText(info[20][3]);
+                    break;
+            }
+        }
+        else if(row==4){
+            switch (i){
+                case 0:
+                    cap.setText(info[21][0]);
+                    pop.setText(info[21][1]);
+                    lang.setText(info[21][2]);
+                    antheme.setText(info[21][3]);
+                    break;
+                case 1:
+                    cap.setText(info[22][0]);
+                    pop.setText(info[22][1]);
+                    lang.setText(info[22][2]);
+                    antheme.setText(info[22][3]);
+                    break;
+                case 2:
+                    cap.setText(info[23][0]);
+                    pop.setText(info[23][1]);
+                    lang.setText(info[23][2]);
+                    antheme.setText(info[23][3]);
+                    break;
+                case 3:
+                    cap.setText(info[24][0]);
+                    pop.setText(info[24][1]);
+                    lang.setText(info[24][2]);
+                    antheme.setText(info[24][3]);
+                    break;
+                case 4:
+                    cap.setText(info[25][0]);
+                    pop.setText(info[25][1]);
+                    lang.setText(info[25][2]);
+                    antheme.setText(info[25][3]);
+                    break;
+                case 5:
+                    cap.setText(info[26][0]);
+                    pop.setText(info[26][1]);
+                    lang.setText(info[26][2]);
+                    antheme.setText(info[26][3]);
+                    break;
+                case 6:
+                    cap.setText(info[27][0]);
+                    pop.setText(info[27][1]);
+                    lang.setText(info[27][2]);
+                    antheme.setText(info[27][3]);
                     break;
             }
         }
